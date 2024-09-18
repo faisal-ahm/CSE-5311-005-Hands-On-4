@@ -6,18 +6,31 @@ Call Stack for fib(5)
 fib(5) calls fib(4) and fib(3)
 
 fib(4) calls fib(3) and fib(2)
+
 fib(3) calls fib(2) and fib(1)
+
 fib(2) calls fib(1) and fib(0)
+
 fib(1) returns 1
+
 fib(0) returns 0
+
 fib(1) returns 1
+
 fib(2) calls fib(1) and fib(0)
+
 fib(1) returns 1
+
 fib(0) returns 0
+
 fib(3) calls fib(2) and fib(1)
+
 fib(2) calls fib(1) and fib(0)
+
 fib(1) returns 1
+
 fib(0) returns 0
+
 fib(1) returns 1
 
 # Time Complexity Analysis
